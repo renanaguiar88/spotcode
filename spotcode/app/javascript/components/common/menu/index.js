@@ -40,7 +40,9 @@ const Menu = () => {
         <Container>
    		    <ColumnsFullWidth className='is-mobile'>
             <Columns.Column desktop={{size: 2}} mobile={{size: 5}}>
-              <img src={logoImage} className='image'/>
+              <a href='/discovery'>
+                <img src={logoImage} className='image'/>
+              </a>              
             </Columns.Column>
             <Columns.Column>
               {actionButton}
